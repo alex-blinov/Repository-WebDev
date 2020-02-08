@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+.header {
+	height: 200px;
+	background: #E5E000;
+	line-height: 200px;
+}
+
+.header h1 {
+	font-family: helvetica;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	margin-left: 80px;
+}
+
+.image {
+	height: 1080px;
+	background-image: url(../img/img.png);
+	background-size: cover;
+}
+
+.links {
+	height: 100px;
+	background: #E5E000;
+	line-height: 100px;
+}
+
+.links div {
+	margin-left: 80px;
+}
+
+.links a {
+	font-family: helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+
+p {
+	font-family: helvetica;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	margin-left: 80px;	
+}
+
+.footer {
+	height: 200px;
+	background: #E5E000;
+	line-height: 200px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 80px;
+}
+
+.footer h1 {
+	font-family: helvetica;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	margin-right: 80px;
+}
