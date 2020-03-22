@@ -1,0 +1,213 @@
+@import url(reset.css);
+
+.rectangle {
+	height: 143px;
+	width: 1440px;
+}
+
+.header {
+	height: 140px;
+	width: 1440px;
+	top: 3px;
+	font-family: Arial;
+	font-size: 50px;
+	padding: 50px;
+	box-sizing: border-box;
+	color: red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: fixed;
+}
+
+.logo {
+	height: 40px;
+}
+
+.menu {
+	display: flex;
+	height: 40px;
+	width: 440px;	
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu li {
+	display: inline;
+}
+
+.link {
+	color: red;
+	text-decoration: none;
+}
+
+.image {
+	height: 950px;
+	position: static;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/evian_origins_logo.png);
+	background-size: cover;
+}
+
+.image-text {
+	font-family: Arial;
+	font-size: 100px;
+	color: red;
+}
+
+.text_section {
+	height: 280px;
+	width: 1040px;
+	margin-left: 201px;
+	margin-top: 150px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.text_container_one {
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	margin: 24px;
+}
+
+.pictures_block {
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 1040px;
+	height: 963px;
+	display: flex;
+	margin-bottom: 1px;
+	justify-content: space-between;
+}
+
+.picture_one_block {
+	height: 969px;
+	width: 281px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.picture_one {
+	background-image: url(../img/wang.png);
+	height: 863px;
+	width: 281px;
+}
+
+.text_one {
+	text-align: center;
+	width: 248px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+.picture_two_block {
+	height: 963px;
+	width: 279px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.picture_two {
+	background-image: url(../img/blue.png);
+	height: 863px;
+	width: 279px;
+}
+
+.text_two {
+	text-align: center;
+	width: 249px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+.picture_three_block {
+	height: 963px;
+	width: 280px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.picture_three {
+	background-image: url(../img/chiara.png);
+	height: 863px;
+	width: 280px;
+}
+
+.text_three {
+	text-align: center;
+	width: 237px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+.image_text_container {
+	margin: 29px 30px 31px 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.picture_four {
+	background-image: url(../img/glass.png);
+	height: 220px;
+	width: 101px;
+}
+
+.text_container_two {
+	width: 749px;
+	height: 220px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+}
+
+.footer {
+	margin-top: 149px;
+	padding: 50px 50px 50px 51px;
+	width: 1440px;
+	height: 140px;
+	background-color: #F8BFC7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*.footer_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}*/
+
+.footer_text {
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
+}
+
+.footer_link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+}
