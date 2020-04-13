@@ -20,7 +20,7 @@ header {
 }
 
 main {
-	margin: 70px;
+	margin: 70px auto;
 	max-width: 1300px;
 	display: flex;
 	justify-content: space-between;
