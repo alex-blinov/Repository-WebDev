@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+.main_div {
+	margin: 0 auto;
+}
+
+header, footer {
+	height: 100px;
+	background: #0000FF;
+	display: flex;
+	align-items: center;
+}
+
+.header_footer_text {
+	margin-left: 30px;
+	font-family: Helvetica;
+	font-size: 25px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.section1 {
+	margin: 20px auto 41px auto;
+	height: 371px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.section2 {
+	margin: 0px auto 21px auto;
+	height: 371px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box {
+	width: 330px;
+	height: 165px;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+@media screen and (min-width: 667px) {
+	.section1 {
+		margin: 102px auto 20px auto;
+		height: 300px;
+		width: 1220px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.section2 {
+		margin: 0px auto 102px auto;
+		height: 300px;
+		width: 1220px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.box {
+		width: 600px;
+		height: 300px;
+		border: 5px solid #000000;
+		box-sizing: border-box;
+		font-family: Helvetica;
+		font-size: 50px;
+		line-height: 57px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+}
