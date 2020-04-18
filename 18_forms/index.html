@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<meta description="form code">
+	<meta keywords="form, test">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header>
+			<nav class="buttons">
+				<a href="#">Посылка</a>
+				<a href="#">Упаковка</a>
+				<a href="#">Подписка</a>
+			</nav>
+			<nav class="menu">
+				<a href="#">Меню</a>
+			</nav>
+		</header>
+		<main>
+			<div>
+				<form action="https://formspree.io/xeqldgpe" method="POST">
+					<fieldset>
+						<label for="name">Имя</label>
+							<input type="text" name="name" placeholder="Ира">
+						<label for="city">Город</label>
+							<input type="text" name="city" placeholder="Сочи">
+						<label for="gift">Подарок</label>
+							<input type="text" name="gift" placeholder="Книга в твердом переплете">
+						<label for="email">Электронная почта</label>
+							<input type="email" name="email" placeholder="email">
+					</fieldset>
+					<fieldset class="submit">
+							<input type="submit" name="ОТПРАВИТЬ">
+					</fieldset>
+					</form>
+			</div>
+			<section>
+				<span>Ваша посылка уже в пути!</span>
+			</section>
+		</main>
+		<footer>
+			<div>Секретные посылки для друзей</div>
+			<div href="#">© 2019</div>
+		</footer>
+	</div>
+</body>
+</html>

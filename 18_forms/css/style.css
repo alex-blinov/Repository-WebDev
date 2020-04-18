@@ -1,0 +1,145 @@
+@import url(reset.css);
+
+.page {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header, footer {
+	height: 90px;
+	background-color: #F8BFC7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+
+.buttons {
+	width: 401px;
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	display: inline-block;
+}
+
+header a {
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	color: black;
+	text-decoration: none;
+}
+
+main div {
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-position: center;
+	height: 844px;
+	width: 1200px;
+}
+
+form {
+	position: relative;
+	top: 90px;
+	left: 90px;
+	width: 300px;
+	height: 362px;
+	background: #F8BFC7;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 20px;
+	padding-top: 33px;	
+}
+
+label {
+	width: 80%;
+	margin: 0 auto 16px auto;
+	display: block;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-style: bold;
+	color: #FFFFFF;
+	line-height: 23px;
+	align-items: top;
+}
+
+input {
+	width: 80%;
+	margin: 0 auto 16px auto;
+	display: block;
+	font-family: Times New Roman;
+	background-color: #F8BFC7;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+	border: none;
+	border-bottom: 1px solid #FFFFFF;;
+}
+
+input::placeholder {
+	color: white;
+}
+
+input:focus {
+	border: none;
+	outline: none;	
+}
+
+input[type="submit"] {
+	margin-top: 39px;
+	width: 200px;
+	height: 60px;
+	background: #FEB700;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	border: 3px solid grey;
+}
+
+input[type="submit"]:active {
+	border: 3px solid grey;
+	background: orange;
+}
+
+main section {
+	height: 201px;
+	width: 1200px;
+	background: #336FD1;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+span {
+	margin: 30px auto;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 57px;
+	align-items: center;
+	text-align: center;
+	color: #FEB700;
+}
+
+footer div {
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+	text-decoration: none;
+}
