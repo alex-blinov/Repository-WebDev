@@ -40,12 +40,16 @@ main div {
 	background-position: center;
 	height: 844px;
 	width: 1200px;
+	overflow: auto;
 }
 
 form {
-	position: relative;
+	/*position: relative;
 	top: 90px;
 	left: 90px;
+	*/
+	margin-top: 90px;
+	margin-left: 90px;
 	width: 300px;
 	height: 362px;
 	background: #F8BFC7;
@@ -53,32 +57,45 @@ form {
 	box-sizing: border-box;
 	border-radius: 20px;
 	font-size: 20px;
-	padding-top: 33px;	
+	/*padding-top: 33px;*/
+}
+
+.fields {
+	width: 80%;
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	margin-top: 33px;
+	margin-left: 30px;
 }
 
 label {
-	width: 80%;
-	margin: 0 auto 16px auto;
-	display: block;
+	/*width: 80%;*/
+	/*margin: 0 auto 16px auto;
+	display: block;*/
 	font-family: Helvetica;
 	font-size: 20px;
 	font-style: bold;
 	color: #FFFFFF;
 	line-height: 23px;
-	align-items: top;
+	display: block;
+	/*align-items: top;*/
 }
 
 input {
-	width: 80%;
-	margin: 0 auto 16px auto;
-	display: block;
+	/*width: 80%;*/
+	/*margin: 0 auto 16px auto;
+	display: block;*/
 	font-family: Times New Roman;
 	background-color: #F8BFC7;
 	font-size: 20px;
 	line-height: 23px;
 	color: white;
 	border: none;
-	border-bottom: 1px solid #FFFFFF;;
+	border-bottom: 1px solid #FFFFFF;
+	display: block;
 }
 
 input::placeholder {
